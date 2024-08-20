@@ -10,3 +10,7 @@ steps:
 
 images:
 - 'gcr.io/interns-417211/gcp-test:$COMMIT_SHA'
+
+# Logging Configuration
+options:
+  logging: 'CLOUD_LOGGING_ONLY'  # or 'NONE'
