@@ -2,3 +2,4 @@ pip-log.txt
 *.so
 *.spec
 *.manifest
+tox/
