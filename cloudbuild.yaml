@@ -11,7 +11,6 @@ steps:
 images:
 - 'gcr.io/interns-417211/gcp-test:$COMMIT_SHA'
 
-# Optional: Add this step if you need to submit builds separately
-- name: 'gcr.io/cloud-builders/gcloud'
-  args: ['builds', 'submit', '.']
+# Logging Configuration
+options:
   logging: 'CLOUD_LOGGING_ONLY'  # or 'NONE'
